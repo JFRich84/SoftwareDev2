@@ -6,10 +6,13 @@
 </head>
 
 <body>
+    <h1>page heading</h1>
+        <div id="content"></div>
+        <script>document.getElementById("content").innerHTML = name;</script>
     <script>
         var name = "Justin";  // string type
         var age = 27;  //Number type
-        var teacher = true; // Boolean type: Notice all lowercase true
+        var teacher = false; // Boolean type: Notice all lowercase true
         document.write('Name ' + name + '<br>');  // + is used for string concatentation
         document.write('Age ' + age + '<br>');  // Try using + with another number and see what happens!
         document.write('Is teacher? ' + teacher);
